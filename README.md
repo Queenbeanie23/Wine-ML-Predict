@@ -1,4 +1,3 @@
-# Wine-ML-Predict
 
 # Wine-ML-Predict
 
