@@ -107,7 +107,8 @@ docker run -it <your-dockerhub-username>/wine-quality-prediction ValidationDatas
 This project demonstrates the development and deployment of a wine quality prediction model using Apache Spark and Docker on AWS. The model is trained in parallel on multiple EC2 instances and packaged in a Docker container for easy deployment. The final output includes the F1 score, which measures the prediction performance.
 
 
-
+## Docker Hub Link 
+https://hub.docker.com/repositories/wanciqsa
 
 
 
