@@ -10,9 +10,8 @@ This project aims to develop a wine quality prediction machine learning model us
 - Deploy the ML model using Docker for simplified deployment.
 
 ## Project Structure
-- **Training Dataset:** `TrainingDataset.csv` (available on Canvas)
-- **Validation Dataset:** `ValidationDataset.csv` (available on Canvas)
-- **Prediction Testing Dataset:** `TestDataset.csv` (structure similar to training and validation datasets, used for testing prediction functionality and performance)
+- **Training Dataset:** `TrainingDataset.csv` 
+- **Validation Dataset:** `ValidationDataset.csv` 
 
 ## Output
 The application will output a measure of prediction performance, specifically the F1 score.
