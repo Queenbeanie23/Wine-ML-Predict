@@ -29,10 +29,10 @@ RUN pip3 install --no-cache-dir pandas pyspark
 
 
 # Copy the Python script and dataset into the container
-COPY training.py /app/training.py
+COPY training.py /app/predict.py
 COPY TrainingDataset.csv /app/TrainingDataset.csv
 COPY ValidationDataset.csv /app/ValidationDataset.csv
 # Set the working directory
 WORKDIR /app
 # Set the entrypoint to run the Spark job
-ENTRYPOINT ["spark-submit", "--master", "local[4]", "/app/training.py"]
+ENTRYPOINT ["spark-submit", "--master", "local[4]", "/app/prediction.py"]
